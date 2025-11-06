@@ -7,7 +7,7 @@ public class Main {
 
         List<Diktator> dictator = new ArrayList<Diktator>();
 
-        dictator.add(new MilitaryDictator("Captain Ben", "Brasil", 19, "Captain", 60));
+        dictator.add(new MilitaryDictator("Captain Ben", "Brasil", 21, "Captain", 60));
         dictator.add(new PoliticalDictator("Commander Lewis", "England", 25, "Commander", 50));
         dictator.add(new AIDictator("Master Robert", "Alpha Centauri", 405, "Master", 40));
 

@@ -9,7 +9,9 @@ public class Diktator {
         this.country = country;
         this.yearsInPower = yearsInPower;
         this.popularity = popularity;
+
     }
+
     public void giveSpeech() {
         System.out.println(name + " will give a speech!");
     }
@@ -17,7 +19,12 @@ public class Diktator {
     public void printDetails() {
         System.out.println("Name: " + name);
         System.out.println("Country: " + country);
-        System.out.println("Years in power: " + yearsInPower);
+        if (yearsInPower > 0) {
+            System.out.println("Years in power: " + yearsInPower);
+        } else {
+            System.out.println("ERROR! Years in power cannot be negative");
+        }
+        }
+
     }
 
-}
